@@ -1,0 +1,221 @@
+body{
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+
+
+}
+.header{
+    background-color: #1f2937;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 10vh;
+    align-items: center;
+    padding: 5px;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+.logo{
+margin-right: auto;
+
+}
+.headerlinks{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: small;
+    margin-left: auto;
+    font-size: 12x;
+    font-weight: 300;
+}
+.top{
+    background-color: #1f2937;;
+    color: white;
+    display: flex;
+    height: 20vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+ 
+}
+.topcontainter{
+    display: flex;
+    flex-direction: row;
+    max-height: 30vh;
+    height:20vh ;
+
+
+}
+.righttopcon{
+
+    background-color: #e5e7eb69;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+    flex: 1 1 0%;
+    
+}
+.lefttopcon{
+
+    flex: 1 1 0%;
+}
+.lefttoptop{
+font-size: 30px;
+font-weight: 900;
+}
+.lefttopbot    /* margin: auto; */tom{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.button{
+    background-color: #3882f6;
+    color: white;
+    padding:8px ;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 800;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+
+}
+.h1information{
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.infsq{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    gap: 30px;
+}
+.square{
+    background-color: white;
+    height:150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.squarewhite{
+
+    height: 150px;
+    width: 150px;
+    background-color: white;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color:#3882f6; 
+    border-radius: 10px;
+    border-width: 2px;
+
+}
+.sqcol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+
+}
+.squaretxt{
+    text-align: center;
+    padding-top: 20px;
+    color: #1f2937 ;
+}
+
+.quotecontainter{
+    background-color: #E5E7EB;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    padding-top: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+   
+}
+.quoteauthor{
+
+    text-align: right;
+}
+
+.signup{
+height: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.bluearea{
+    background-color: #3882f6;
+    width: 80%;
+    height: 50%;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.blueleft{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.bluebottombutton{
+    background-color: #3882f6;
+    color: white;
+    padding:8px ;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 8px;
+    border: solid 2px;
+    font-weight: 800;
+}
+
+
+.footnote{
+    color: white;
+    background-color: #1f2937;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
